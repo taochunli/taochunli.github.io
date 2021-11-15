@@ -1,0 +1,30 @@
+p
+{
+    background-color: brown;
+    color: rgb(42, 54, 165);
+}
+#test
+{
+    background-color: burlywood;
+}
+.test
+{
+    background-color: chartreuse;
+}
+#frestyle
+{
+   background-color: black; 
+   width: 100px;
+   height: 100px;
+   animation-name: taochunli;
+   animation-duration: 4s;
+   position: relative;
+   animation-iteration-count: 10;
+}
+@keyframes taochunli
+{
+    0%{background-color: blue;top: 0px;left:0px}
+    25%{background-color: rgb(204, 0, 255);top: 40px;left: 20px;}
+    40%{background-color: crimson;top: 50px;left: 100px;}
+    60%{background-color: darkgoldenrod;top: 500px;left: 500px;}
+}
